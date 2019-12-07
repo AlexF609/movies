@@ -1,0 +1,207 @@
+/*
+Theme Name: Movies
+Theme URI: https://github.com/Alexgb/
+Author: Alex Alvaz
+Author URI: 
+Description: Movies genesis child theme.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: 
+Template: genesis
+Text Domain: movies
+*/
+
+/* ----------------------Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800|Open+Sans');
+/* # HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Typographical Elements
+--------------------------------------------- */
+body {
+	font-family: 'Dosis',
+	sans-serif;
+	color: #222;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.625;
+	margin: 0;
+}
+
+/* ## Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #333;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+/* ## Objects
+--------------------------------------------- */
+
+/* ## Gallery
+--------------------------------------------- */
+
+/* ## Forms
+--------------------------------------------- */
+
+
+/* ## Tables
+--------------------------------------------- */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 2;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+tbody {
+	border-bottom: 1px solid #ddd;
+}
+
+td,
+th {
+	text-align: left;
+}
+
+td {
+	border-top: 1px solid #ddd;
+	padding: 6px 0;
+}
+
+th {
+	font-weight: 400;
+}
+
+/* ## Screen Reader Text
+--------------------------------------------- */
+/* Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+
+.site-header {
+	position: relative;
+	width: 100%;
+	background-color: rgba(2, 13, 24, 0.493);
+	padding: 40px 0;
+}
+
+.title-area {
+	float: left;
+}
+.wrap,
+.site-inner,
+.site-footer {
+	margin: 0 auto;
+	max-width: 1400px;
+}
+
+/* ## Column Widths and Positions
+--------------------------------------------- */
+
+/* ### Content */
+
+.content {
+	float: right;
+	width: 800px;
+}
+
+.content-sidebar .content {
+	float: left;
+}
+
+.full-width-content .content {
+	width: 100%;
+}
+
+/* ### Primary Sidebar */
+
+.sidebar-primary {
+	float: right;
+	width: 270px;
+}
+
+
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+
+
+.genesis-nav-menu .menu-item {
+	display: inline-block;
+	text-align: right;
+}
+
+.genesis-nav-menu a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 10px 24px;
+}
+
+/* ## Accessible Menu
+--------------------------------------------- */
+
+
+
+/* ## Site Header Navigation
+--------------------------------------------- */
+
+/* ## Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+	/*float: right;*/
+}
+
+
+.nav-primary .genesis-nav-menu a:hover,
+.nav-primary .genesis-nav-menu a:focus,
+.nav-primary .genesis-nav-menu .current-menu-item>a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
